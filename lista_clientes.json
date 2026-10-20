@@ -1,3 +1,40 @@
 {
-    
+    "contratos": [{
+        "id": 1,
+        "propiedad": "Mejico 1010",
+        "inquilino": "Sanchez",
+        "fecha_de_inicio": "07-2026",
+        "fecha_de_fin": "08-2028",
+        "monto_actual": 150000,
+        "monto_inicial": 150000,
+        "meses_actualizacion": 3,
+        "garantes": {
+            "nombre": "Juan Pablo",
+            "telefono": "1155550000"
+        },
+        "montos_pasados": {
+            "2026": {
+                "julio": 150000
+            }
+        }
+    },
+    {
+        "id": 2,
+        "propiedad": "Benedetti 2020",
+        "inquilino": "Perez",
+        "fecha_de_inicio": "04-2026",
+        "fecha_de_fin": "05-2028",
+        "monto_actual": 300000,
+        "monto_inicial": 300000,
+        "meses_actualizacion": 6,
+        "garantes": {
+            "nombre": "Jose",
+            "telefono": "1155550000"
+        },
+        "montos_pasados": {
+            "2026": {
+                "abril": 300000
+            }
+        }
+    }]
 }
